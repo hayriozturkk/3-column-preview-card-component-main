@@ -1,0 +1,124 @@
+body {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 3% auto auto;
+}
+
+.box {
+  padding: 50px;
+  width: 290px;
+}
+
+.sedans-box {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.SUVs-box {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-box {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.text-box {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 20px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 8px;
+  width: 130px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 70px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sedans-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedans-button:hover {
+  cursor: pointer;
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.SUVs-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.SUVs-button:hover {
+  cursor: pointer;
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-button:hover {
+  cursor: pointer;
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: block;
+    margin: 10% auto auto;
+  }
+
+  .sedans-box {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .luxury-box {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .box {
+    height: 400px;
+    padding: 40px;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .button {
+    margin-top: 30px;
+  }
+}
